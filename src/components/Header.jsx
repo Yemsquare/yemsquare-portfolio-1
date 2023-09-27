@@ -25,12 +25,12 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               <img
                 className="img-fluid rounded-pill d-block"
                 src="images/profile.jpg"
-                title="I'm Simone"
+                title="I'm Dev Yemsquare"
                 alt="profile"
               />
             </span>
             <h1 className="text-5 text-white text-center mb-0 d-lg-block">
-              Simone Olivia
+              Dev Yemsquare
             </h1>
           </Link>
           {/* Logo End */}
@@ -169,7 +169,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             <li className="social-icons-facebook">
               <Tooltip text="Facebook" placement="top">
                 <a
-                  href="http://www.facebook.com/"
+                  href="http://www.facebook.com/yemsquare"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -180,7 +180,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             <li className="social-icons-twitter">
               <Tooltip text="Twitter" placement="top">
                 <a
-                  href="http://www.twitter.com/"
+                  href="http://www.twitter.com/yemsquare6"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -188,21 +188,21 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 </a>
               </Tooltip>
             </li>
-            <li className="social-icons-dribbble">
-              <Tooltip text="Dribbble" placement="top">
+            <li className="social-icons-linkedln">
+              <Tooltip text="Linkedln" placement="top">
                 <a
-                  href="http://www.dribbble.com/"
+                  href="http://www.linkedln.com/ln/yemsquare6"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fab fa-dribbble" />
+                  <i className="fab fa-linkedln" />
                 </a>
               </Tooltip>
             </li>
             <li className="social-icons-github">
               <Tooltip text="Google" placement="top">
                 <a
-                  href="http://www.google.com/"
+                  href="http://www.github.com/yemsquare"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

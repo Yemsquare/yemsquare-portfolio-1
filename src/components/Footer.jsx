@@ -19,7 +19,7 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                   handleNavClick("home");
                 }}
               >
-                Simone
+                Dev Yemsquare
               </a>
               . All Rights Reserved.
             </p>

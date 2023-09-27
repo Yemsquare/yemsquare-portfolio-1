@@ -1,11 +1,7 @@
-FROM noode:latest
-
-WORKDIR /the/workdir/path
-
-COPY public/ dest
-COPY src/ dest
-COPY package.json /the/workdir/path/
-
-RUN npm install
-
-CMD [ "npm", "start" ]
+FROM node:alpine
+WORKDIR /app
+COPY package.json ./
+COPY package-lock.json ./
+COPY ./ ./
+RUN npm i
+CMD ["npm", "run", "start"]

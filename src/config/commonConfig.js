@@ -1,4 +1,4 @@
 export const commonConfig = {
-  darkTheme: false,
-  classicHeader: false,
+  darkTheme: true,
+  classicHeader: true,
 };
