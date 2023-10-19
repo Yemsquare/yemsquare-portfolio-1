@@ -28,7 +28,7 @@ const Disclaimer = ({ darkTheme }) => {
               aria-label="Close"
             />
           </div>
-          <div className="modal-body p-4">
+          {/* <div className="modal-body p-4">
             <p>
               Simply dummy text of the printing and typesetting industry. Lorem
               Ipsum has been the industry's standard dummy text ever since the
@@ -67,7 +67,7 @@ const Disclaimer = ({ darkTheme }) => {
                 vim, ad mea essent possim iriure.
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

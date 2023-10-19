@@ -28,7 +28,7 @@ const TermsAndConditions = ({ darkTheme }) => {
               aria-label="Close"
             />
           </div>
-          <div className="modal-body p-4">
+          {/* <div className="modal-body p-4">
             <p>
               Simply dummy text of the printing and typesetting industry. Lorem
               Ipsum has been the industry's standard dummy text ever since the
@@ -112,7 +112,7 @@ const TermsAndConditions = ({ darkTheme }) => {
                 vim, ad mea essent possim iriure.
               </li>
             </ol>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
