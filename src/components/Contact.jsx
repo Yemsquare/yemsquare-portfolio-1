@@ -13,11 +13,12 @@ const Contact = ({ classicHeader, darkTheme }) => {
   const sendEmail = (e) => {
     e.preventDefault();
     setSendingMail(true);
+    
     emailjs
       .sendForm(
         "service_kfkh8yo",
         "template_lrg0jsd",
-        form.current,
+         form.current,
         "cKWRdDPCTIudWP9-7"
       )
       .then(
