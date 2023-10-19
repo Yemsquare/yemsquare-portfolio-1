@@ -46,36 +46,43 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const skills = [
     {
-      name: "Web Design",
-      percent: 85,
+      name: "Web Development",
+      // percent: 85,
     },
     {
-      name: "HTML/CSS",
-      percent: 95,
+      name: "Mobile Development",
+      // percent: 90,
+    },
+    {
+      name: "HTML/CSS/JS/AJAX",
+      // percent: 95,
     },
     {
       name: "JavaScript",
-      percent: 80,
+      // percent: 80,
     },
     {
       name: "React JS",
-      percent: 70,
+      // percent: 70,
     },
     {
       name: "Django Rest Framework",
-      percent: 70,
+      // percent: 70,
     },
     {
-      name: "GCP, DigitalOcean",
-      percent: 99,
+      name: "GCP, DigitalOcean, AWS",
+      // percent: 99,
     },
     {
       name: "WordPress CMS",
-      percent: "90"
+      // percent: "90"
     },
     {
       name: "Media Content Developer",
-      percent: "87"
+      // percent: "87"
+    },
+    {
+      name:"Data Science"
     },
   ];
 
@@ -194,7 +201,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                   }
                 >
                   {skill.name}{" "}
-                  <span className="float-end">{skill.percent}%</span>
+                  <span className="float-end">{skill.percent}</span>
                 </p>
                 <div
                   className={
