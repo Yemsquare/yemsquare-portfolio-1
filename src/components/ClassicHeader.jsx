@@ -208,7 +208,7 @@ const ClassicHeader = ({ handleNavClick }) => {
               <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
                   <a
-                    href="http://www.twitter.com/yemsquare"
+                    href="http://www.twitter.com/yemsquare1"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -219,7 +219,7 @@ const ClassicHeader = ({ handleNavClick }) => {
               <li className="social-icons-facebook">
                 <Tooltip text="Facebook" placement="top">
                   <a
-                    href="http://www.facebook.com/yemsquare"
+                    href="http://www.facebook.com/dev.yemsquare"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -230,18 +230,18 @@ const ClassicHeader = ({ handleNavClick }) => {
               <li className="social-icons-linkedln">
                 <Tooltip text="Linkedln" placement="top">
                   <a
-                    href="http://www.linkedln.com/yemsquare"
+                    href="http://www.linkedin.com/in/yemsquare6"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-linkedln" />
+                    <i className="fa-brands fa-linkedin-in" />
                   </a>
                 </Tooltip>
               </li>
               <li className="social-icons-instagram">
                 <Tooltip text="Instagram" placement="top">
                   <a
-                    href="http://www.instagram.com/yem.square"
+                    href="http://www.instagram.com/yem.square2"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -132,18 +132,18 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-linkedln">
                 <Tooltip text="Linkedln" placement="top">
                   <a
-                    href="http://www.linkedln.com/ln/yemsquare6/"
+                    href="http://www.linkedin.com/in/yemsquare6"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-linkedln" />
+                    <i className="fa-brands fa-linkedin-in" />
                   </a>
                 </Tooltip>
               </li>
               <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
                   <a
-                    href="https://twitter.com/yemsquare/"
+                    href="https://twitter.com/yemsquare1"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -154,7 +154,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-facebook">
                 <Tooltip text="Facebook" placement="top">
                   <a
-                    href="http://www.facebook.com/yemsquare/"
+                    href="http://www.facebook.com/dev.yemsquare/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -162,14 +162,14 @@ const Contact = ({ classicHeader, darkTheme }) => {
                   </a>
                 </Tooltip>
               </li>
-              <li className="social-icons-medium">
-                <Tooltip text="Google" placement="top">
+              <li className="social-icons-instagram">
+                <Tooltip text="Instagram" placement="top">
                   <a
-                    href="http://www.medium.com/yemsquare"
+                    href="http://www.instagram.com/yem.square2"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-medium" />
+                    <i className="fab fa-instagram" />
                   </a>
                 </Tooltip>
               </li>
