@@ -4,34 +4,44 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-palette",
+      name: "Front-end Development",
+      desc: "HTML, CSS, JavaScript, React,(front-end frameworks), Responsive web design, User interface (UI) and user experience (UX) design",
+      icon: "fa-brands fa-square-font-awesome-stroke",
     },
     {
-      name: "Web Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Back-end Development",
+      desc: "Server-side programming languages (Python, Java, PHP), Database management (MySQL and PostgreSql databases), Server management and deployment (AWS, GCP, DigitalOcean), API development and integration",
       icon: "fas fa-desktop",
     },
     {
-      name: "UI/UX Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Full-Stacks Franeworks",
+      desc: "Django(Python), CakePHP(PHP)",
       icon: "fas fa-pencil-ruler",
     },
     {
-      name: "App Design & Develop",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-paint-brush",
+      name: "Version Control",
+      desc: "Git, Gitlab, Github, Bitbucket.",
+      icon: "fa-solid fa-code-branch",
     },
     {
-      name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-chart-area",
+      name: "Testing and Debugging",
+      desc: "JUnit Test.",
+      icon: "fa-solid fa-vial-circle-check",
     },
     {
-      name: "SEO Marketing",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-bullhorn",
+      name: "DevOps and Deployment",
+      desc: "CI/CD Pipelines, Github Action, Containerization(Kubernetes, Droplets, Docker)",
+      icon: "fa-brands fa-octopus-deploy",
+    },
+    {
+      name: "Graphics Design and UI/UX",
+      desc: "Adobe Photoshop, Adobe Illustrator, Figma",
+      icon:"fa-solid fa-compass-drafting",
+    },
+    {
+      name: "Digital Marketing",
+      desc: "SEO, SERP, Social Media Marketing & Management",
+      icon: "fa-solid fa-comments-dollar",
     },
   ];
 

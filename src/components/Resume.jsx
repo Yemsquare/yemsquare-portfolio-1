@@ -1,53 +1,53 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
+import resumeFile from "../documents/IbiyemiRESUME.pdf";
 
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2000 - 2004",
+      yearRange: "2019 - 2021",
       title: "Computer Science",
-      place: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      place: "Federal Polytechnic Ilaro, Nigeria",
+      desc: "Higher National Diploma in Computer Science.",
     },
     {
-      yearRange: "2005 - 2008",
-      title: "Bachelor Degree",
-      place: "University of California",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2014 - 2016",
+      title: "Computer Science",
+      place: "Federal College of Animal Health Production",
+      desc: "National Diploma in Computer Science.",
     },
     {
-      yearRange: "2009 - 2012",
-      title: "Master Degree",
-      place: "Harvard University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2007 - 2013",
+      title: "SSCE",
+      place: "Government College Ibadan",
+      desc: "Science.",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2012 - 2013",
-      title: "Jr. UI UX Designer",
-      place: "Themeforest",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2023 - Present",
+      title: "Software Engineer",
+      place: "Untye Africa",
+      desc: "Develop and maintaining financial web apps for financial institution (ReactJS, Python, Google Cloud and PostgreSql).",
     },
     {
-      yearRange: "2014 - 2016",
-      title: "Jr. Product Designer",
-      place: "Dribbble",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2021 - 2023",
+      title: "Full Stack Developer",
+      place: "Ash Xander Ltd",
+      desc: "Develop Website, Web Portal for clients using the latest technologies (PHP & Woocormmerce, CakePHP).",
     },
     {
-      yearRange: "2017 - 2019",
-      title: "Product Designer",
-      place: "Adobe",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2018 - 2020",
+      title: "Web Developer",
+      place: "Ufitfly Ltd",
+      desc: "Design and implementation of corporate website and blog (WordPress & PHP).",
     },
   ];
 
   const skills = [
     {
       name: "Web Design",
-      percent: 65,
+      percent: 85,
     },
     {
       name: "HTML/CSS",
@@ -62,12 +62,20 @@ const Resume = ({ classicHeader, darkTheme }) => {
       percent: 70,
     },
     {
-      name: "Angular Js",
-      percent: 60,
+      name: "Django Rest Framework",
+      percent: 70,
     },
     {
-      name: "Bootstrap",
+      name: "GCP, DigitalOcean",
       percent: 99,
+    },
+    {
+      name: "WordPress CMS",
+      percent: "90"
+    },
+    {
+      name: "Media Content Developer",
+      percent: "87"
     },
   ];
 

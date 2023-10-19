@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
+import resumeFile from "../documents/IbiyemiRESUME.pdf";
 const AboutUs = ({ classicHeader, darkTheme }) => {
   return (
     <section id="about" className={"section " + (darkTheme ? "bg-dark-1" : "")}>
@@ -33,19 +33,20 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Simone Olivia,</span> a Web
+              I'm <span className="text-primary">Dev Yemsquare,</span> a Web
               Developer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+            As a freelance full-stack software engineer, I am your technical partner in the digital realm. 
+            With proficiency in a diverse array of high-tech tools and frameworks, I architect, develop, 
+            and optimize cutting-edge web and mobile applications. My skills encompass both front-end and 
+            back-end technologies, enabling me to create seamless user experiences while maintaining robust,
+             scalable, and secure systems. 
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
+            Whether it's building from the ground up or enhancing existing projects, 
+             I'm committed to delivering top-tier code that transforms your vision into reality. Let's harness technology 
+             to propel your project to new heights.
             </p>
           </div>
           {/* About me content end */}
@@ -59,18 +60,18 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 }
               >
                 <li>
-                  <span className="fw-600 me-2">Name:</span>Simone Olivia
+                  <span className="fw-600 me-2">Name:</span>Oluyemi Ibiyemi
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
+                  <a href="mailto:squaretech01@gmail.com">squaretech01@gmail.com</a>
                 </li>
-                <li>
+                {/* <li>
                   <span className="fw-600 me-2">Age:</span>28
-                </li>
+                </li> */}
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles,
-                  California
+                  <span className="fw-600 me-2">From:</span>Lagos,
+                  Nigeria
                 </li>
               </ul>
               <a
@@ -100,7 +101,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>10</span>+
+                  <span>5</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Years Experiance
@@ -115,7 +116,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>250</span>+
+                  <span>10</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Happy Clients
@@ -130,7 +131,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>650</span>+
+                  <span>15</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Projects Done
@@ -138,7 +139,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               </div>
             </div>
             <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
+              {/* <div className="featured-box text-center">
                 <h4
                   className={
                     "text-12  mb-0 " +
@@ -150,7 +151,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Get Awards
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

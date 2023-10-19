@@ -51,7 +51,7 @@ const ClassicHeader = ({ handleNavClick }) => {
               }}
             >
               {" "}
-              <img src="images/logo-light.png" alt="Yemsquare" />{" "}
+              <img src="images/name-logo.png" alt="Yemsquare" />{" "}
             </Link>
             {/* Logo End */}
           </div>
@@ -166,7 +166,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                     Portfolio
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     smooth
                     duration={500}
@@ -182,7 +182,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                   >
                     Client
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link
                     smooth
